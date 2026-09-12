@@ -85,10 +85,16 @@ export interface SimilarityBreakdownItem {
   maxPoints: number;
 }
 
+export interface SimilarityTagItem {
+  name: string;
+  matched: boolean;
+}
+
 export interface SimilarityResult extends TileResult {
   score: number;
   maxScore: number;
   breakdown: SimilarityBreakdownItem[];
+  tags: SimilarityTagItem[];
 }
 
 export interface GuessResult {

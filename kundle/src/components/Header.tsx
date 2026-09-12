@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
-import { Moon, Sun } from 'lucide-react';
+import { Moon, RefreshCw, Sun } from 'lucide-react';
 
 interface HeaderProps {
   onHelpClick: () => void;
+  onRefreshClick: () => void;
 }
 
-export function Header({ onHelpClick }: HeaderProps) {
+export function Header({ onHelpClick, onRefreshClick }: HeaderProps) {
   const [dark, setDark] = useState(() => document.documentElement.dataset.theme === 'dark');
   const [followSystem, setFollowSystem] = useState(() => {
     try {
@@ -47,6 +48,15 @@ export function Header({ onHelpClick }: HeaderProps) {
       <div className="app-header__titles">
         <h1 className="app-header__title">KUNDLE</h1>
       </div>
+      <button
+        type="button"
+        className="app-header__help app-header__refresh"
+        onClick={onRefreshClick}
+        aria-label="New random customer"
+        title="New random customer"
+      >
+        <RefreshCw size={18} aria-hidden="true" />
+      </button>
       <button
         type="button"
         className="app-header__help app-header__theme"

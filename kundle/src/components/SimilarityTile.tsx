@@ -59,16 +59,56 @@ export function SimilarityTile({ tile, index }: SimilarityTileProps) {
       </div>
       {expanded && (
         <div id={detailsId} role="tooltip" className="similarity-detail">
-          <ul>
+          <div className="similarity-detail__header">
+            <span className="similarity-detail__title">Similarity clues</span>
+            <span className={`similarity-detail__badge similarity-detail__badge--${tile.status}`}>
+              {tile.score}/{tile.maxScore} pts
+            </span>
+          </div>
+          <ul className="similarity-detail__list">
             {tile.breakdown.map((item) => (
-              <li key={item.label}>
-                <span>{item.matched ? '✓' : '✕'} {item.label}</span>
-                <span>+{item.points}</span>
+              <li
+                key={item.label}
+                className={`similarity-detail__item ${item.matched ? 'similarity-detail__item--match' : 'similarity-detail__item--miss'}`}
+              >
+                <div className="similarity-detail__item-info">
+                  <span className="similarity-detail__icon" aria-hidden="true">
+                    {item.matched ? '✓' : '✕'}
+                  </span>
+                  <div className="similarity-detail__text">
+                    <span className="similarity-detail__label">{item.label}</span>
+                    <span className="similarity-detail__value">{item.value}</span>
+                  </div>
+                </div>
+                <span className="similarity-detail__points">
+                  {item.matched ? `+${item.points}` : '+0'}
+                </span>
               </li>
             ))}
           </ul>
-          <div className="similarity-detail__total">
-            Similarity: {tile.score}/{tile.maxScore}
+          {tile.tags && tile.tags.length > 0 && (
+            <div className="similarity-detail__tags-section">
+              <span className="similarity-detail__tags-title">Tags</span>
+              <div className="similarity-detail__tags-list">
+                {tile.tags.map((tag) => (
+                  <span
+                    key={tag.name}
+                    className={`similarity-tag ${tag.matched ? 'similarity-tag--match' : ''}`}
+                    title={tag.matched ? 'Tag matches target client' : undefined}
+                  >
+                    {tag.matched ? '✓ ' : ''}#{tag.name}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+          <div className="similarity-detail__footer">
+            <span className="similarity-detail__legend-pill">
+              <i className="similarity-legend-dot similarity-legend-dot--green" /> Target match
+            </span>
+            <span className="similarity-detail__legend-pill">
+              <i className="similarity-legend-dot similarity-legend-dot--grey" /> No match
+            </span>
           </div>
         </div>
       )}

@@ -16,7 +16,13 @@ export function SearchBox({ clients, guessedIds, disabled, onGuess }: SearchBoxP
     const q = query.trim().toLowerCase();
     if (!q) return [];
     return clients
-      .filter((c) => !guessedIds.has(c.id) && c.name.toLowerCase().includes(q))
+      .filter((c) => {
+        if (guessedIds.has(c.id)) return false;
+        const nameMatch = c.name.toLowerCase().includes(q);
+        const industryMatch = c.similarityIndustry.toLowerCase().includes(q);
+        const tagMatch = c.tags?.some((t) => t.toLowerCase().includes(q));
+        return nameMatch || industryMatch || tagMatch;
+      })
       .slice(0, 8);
   }, [query, clients, guessedIds]);
 
@@ -45,7 +51,7 @@ export function SearchBox({ clients, guessedIds, disabled, onGuess }: SearchBoxP
       <input
         type="text"
         className="search-box__input"
-        placeholder={disabled ? 'Daily challenge complete' : 'Search for a client…'}
+        placeholder={disabled ? 'Daily challenge complete' : 'Search for a client, industry, or tag…'}
         value={query}
         disabled={disabled}
         onChange={(e) => {
@@ -65,7 +71,10 @@ export function SearchBox({ clients, guessedIds, disabled, onGuess }: SearchBoxP
                 onMouseEnter={() => setActiveIndex(i)}
                 onClick={() => selectClient(c)}
               >
-                {c.name}
+                <span className="search-box__result-name">{c.name}</span>
+                <span className="search-box__result-sub">
+                  {c.similarityIndustry} {c.country ? `· ${c.country}` : ''}
+                </span>
               </button>
             </li>
           ))}

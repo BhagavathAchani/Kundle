@@ -3,6 +3,7 @@ import type {
   Client,
   SimilarityBreakdownItem,
   SimilarityResult,
+  SimilarityTagItem,
   TileResult,
 } from '../types';
 import {
@@ -138,6 +139,7 @@ export function compareSimilarity(guess: Client, target: Client): SimilarityResu
   const industryMatch = guess.similarityIndustry === target.similarityIndustry;
   breakdown.push({
     label: 'Industry',
+    value: guess.similarityIndustry,
     matched: industryMatch,
     points: industryMatch ? SIMILARITY_CONFIG.industryPoints : 0,
     maxPoints: SIMILARITY_CONFIG.industryPoints,
@@ -146,14 +148,18 @@ export function compareSimilarity(guess: Client, target: Client): SimilarityResu
   const ownershipMatch = guess.ownership === target.ownership;
   breakdown.push({
     label: 'Ownership',
+    value: guess.ownership,
     matched: ownershipMatch,
     points: ownershipMatch ? SIMILARITY_CONFIG.ownershipPoints : 0,
     maxPoints: SIMILARITY_CONFIG.ownershipPoints,
   });
 
-  const orientationMatch = guess.customerOrientation.some(orientation => target.customerOrientation.includes(orientation));
+  const orientationMatch = guess.customerOrientation.some((orientation) =>
+    target.customerOrientation.includes(orientation),
+  );
   breakdown.push({
     label: 'Customer focus',
+    value: guess.customerOrientation.join(', '),
     matched: orientationMatch,
     points: orientationMatch ? SIMILARITY_CONFIG.orientationPoints : 0,
     maxPoints: SIMILARITY_CONFIG.orientationPoints,
@@ -162,10 +168,17 @@ export function compareSimilarity(guess: Client, target: Client): SimilarityResu
   const regulatoryMatch = guess.regulatoryCharacter === target.regulatoryCharacter;
   breakdown.push({
     label: 'Regulation',
+    value: guess.regulatoryCharacter,
     matched: regulatoryMatch,
     points: regulatoryMatch ? SIMILARITY_CONFIG.regulatoryPoints : 0,
     maxPoints: SIMILARITY_CONFIG.regulatoryPoints,
   });
+
+  const targetTagSet = new Set((target.tags ?? []).map((t) => t.toLowerCase().trim()));
+  const tags: SimilarityTagItem[] = (guess.tags ?? []).map((t) => ({
+    name: t,
+    matched: targetTagSet.has(t.toLowerCase().trim()),
+  }));
 
   const score = breakdown.reduce((sum, item) => sum + item.points, 0);
 
@@ -178,6 +191,7 @@ export function compareSimilarity(guess: Client, target: Client): SimilarityResu
     score,
     maxScore: SIMILARITY_MAX_SCORE,
     breakdown,
+    tags,
     guessDisplay: `${score}/${SIMILARITY_MAX_SCORE}`,
   };
 }

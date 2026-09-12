@@ -292,6 +292,30 @@
   place-items: center;
 }
 
+.app-header__refresh {
+  right: 44px;
+  display: grid;
+  place-items: center;
+}
+
+/* Demo banner */
+.demo-banner {
+  background: var(--highlight);
+  border: 1px solid var(--accent);
+  color: var(--text);
+  border-radius: var(--radius);
+  padding: 8px 12px;
+  margin-bottom: 16px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.demo-banner__label {
+  font-weight: 700;
+  color: var(--accent);
+  margin-right: 6px;
+}
+
 /* Search */
 .search-box {
   position: relative;
@@ -348,16 +372,27 @@
 }
 
 .search-box__result {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
   width: 100%;
   text-align: left;
   padding: 10px 12px;
   border: none;
   background: transparent;
   border-radius: 6px;
-  font-size: 15px;
   color: var(--text);
   cursor: pointer;
+}
+
+.search-box__result-name {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.search-box__result-sub {
+  font-size: 12px;
+  color: var(--text-muted);
 }
 
 .search-box__result--active,
@@ -614,53 +649,248 @@
 .similarity-detail {
   position: absolute;
   top: 0;
-  right: calc(100% + 6px);
+  right: calc(100% + 8px);
   background: var(--surface);
   color: var(--text);
   border: 1px solid var(--border);
-  border-radius: 8px;
+  border-radius: 10px;
   box-shadow: var(--shadow);
-  padding: 10px 12px;
-  width: min(220px, calc(400% + 15px));
-  z-index: 20;
+  padding: 12px 14px;
+  width: min(300px, calc(450% + 20px));
+  z-index: 50;
   text-align: left;
 }
 
-.similarity-detail ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+@media (max-width: 639px) {
+  .similarity-detail {
+    right: 0;
+    top: calc(100% + 6px);
+    width: min(320px, calc(100vw - 32px));
+  }
 }
 
 .similarity-detail::before {
   content: '';
   position: absolute;
-  right: -7px;
+  right: -8px;
   top: 0;
   bottom: 0;
-  width: 7px;
+  width: 8px;
 }
 
-.guess-row:nth-last-child(-n + 3) .similarity-detail {
+.guess-row:nth-last-child(-n + 2) .similarity-detail {
   top: auto;
   bottom: 0;
 }
 
-.similarity-detail li {
-  display: flex;
-  justify-content: space-between;
-  font-size: 13px;
+@media (max-width: 639px) {
+  .guess-row:nth-last-child(-n + 2) .similarity-detail {
+    top: auto;
+    bottom: calc(100% + 6px);
+  }
 }
 
-.similarity-detail__total {
+.similarity-detail__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.similarity-detail__title {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+}
+
+.similarity-detail__badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: #fff;
+}
+
+.similarity-detail__badge--green {
+  background: var(--green);
+}
+
+.similarity-detail__badge--orange {
+  background: var(--orange);
+}
+
+.similarity-detail__badge--grey {
+  background: var(--grey);
+}
+
+.similarity-detail__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.similarity-detail__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  background: var(--hover);
+}
+
+.similarity-detail__item--match {
+  background: var(--highlight);
+}
+
+.similarity-detail__item-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  min-width: 0;
+  flex: 1;
+}
+
+.similarity-detail__icon {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.3;
+  flex-shrink: 0;
+}
+
+.similarity-detail__item--match .similarity-detail__icon {
+  color: var(--green);
+}
+
+.similarity-detail__item--miss .similarity-detail__icon {
+  color: var(--text-muted);
+  opacity: 0.6;
+}
+
+.similarity-detail__text {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.similarity-detail__label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-muted);
+  line-height: 1.2;
+}
+
+.similarity-detail__value {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.similarity-detail__item--match .similarity-detail__value {
+  color: var(--accent);
+}
+
+.similarity-detail__points {
+  font-size: 12px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  flex-shrink: 0;
+  line-height: 1.3;
+}
+
+.similarity-detail__item--match .similarity-detail__points {
+  color: var(--green);
+}
+
+.similarity-detail__item--miss .similarity-detail__points {
+  color: var(--text-muted);
+  opacity: 0.7;
+}
+
+/* Tags in similarity detail */
+.similarity-detail__tags-section {
   margin-top: 8px;
   padding-top: 8px;
   border-top: 1px solid var(--border);
+}
+
+.similarity-detail__tags-title {
+  display: block;
+  font-size: 11px;
   font-weight: 700;
-  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.similarity-detail__tags-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.similarity-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--hover);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+
+.similarity-tag--match {
+  background: var(--highlight);
+  color: var(--accent);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+/* Footer & Legend in similarity detail */
+.similarity-detail__footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--border);
+  font-size: 10.5px;
+  color: var(--text-muted);
+}
+
+.similarity-detail__legend-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.similarity-legend-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.similarity-legend-dot--green {
+  background: var(--green);
+}
+
+.similarity-legend-dot--grey {
+  background: var(--grey);
 }
 
 /* Legend */

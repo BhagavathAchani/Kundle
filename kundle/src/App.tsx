@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { ALL_CLIENTS, ELIGIBLE_TARGET_CLIENTS } from './data/clients';
-import { getDailyTarget } from './game/dailyTarget';
+import { getDailyTarget, getRandomTarget } from './game/dailyTarget';
 import { compareGuess } from './game/compare';
 import { MAX_GUESSES } from './game/config';
 import type { Client, GuessResult } from './types';
@@ -18,14 +18,14 @@ import './App.css';
 function App() {
   const [gameDate] = useState(() => new Date());
   const dateKey = gameDate.toISOString().slice(0, 10);
-  const target = useMemo(() => getDailyTarget(ELIGIBLE_TARGET_CLIENTS, gameDate), [gameDate]);
+  const [target, setTarget] = useState<Client>(() => getDailyTarget(ELIGIBLE_TARGET_CLIENTS, gameDate));
   const [guesses, setGuesses] = useState<GuessResult[]>([]);
   const [showHelp, setShowHelp] = useState(false);
   const [view, setView] = useState<'puzzle' | 'leaderboard'>('puzzle');
   const [showNamePrompt, setShowNamePrompt] = useState(false);
   const [resultReady, setResultReady] = useState(false);
   const [saved, setSaved] = useState(false);
-  const [entryId] = useState(() => crypto.randomUUID());
+  const [entryId, setEntryId] = useState(() => crypto.randomUUID());
   const puzzleButtonRef = useRef<HTMLButtonElement>(null);
   const [leaderboard, setLeaderboard] = useState(() => {
     try {
@@ -34,6 +34,8 @@ function App() {
       return { entries: [], unavailable: true };
     }
   });
+
+  const [demoAnswer, setDemoAnswer] = useState<string | null>(null);
 
   const won = guesses.some((g) => g.isWinner);
   const lost = !won && guesses.length >= MAX_GUESSES;
@@ -48,6 +50,14 @@ function App() {
     }, 3500);
     return () => clearTimeout(timer);
   }, [gameOver]);
+
+  useEffect(() => {
+    if (!demoAnswer) return;
+    const timer = setTimeout(() => {
+      setDemoAnswer(null);
+    }, 2000);
+    return () => clearTimeout(timer);
+  }, [demoAnswer]);
 
   function dismissNamePrompt() {
     setShowNamePrompt(false);
@@ -64,6 +74,19 @@ function App() {
     dismissNamePrompt();
   }
 
+  function handleRefresh() {
+    const nextTarget = getRandomTarget(ELIGIBLE_TARGET_CLIENTS, target);
+    setTarget(nextTarget);
+    setDemoAnswer(nextTarget.name);
+    console.info(`[Demo Answer]: ${nextTarget.name}`);
+    setGuesses([]);
+    setResultReady(false);
+    setSaved(false);
+    setShowNamePrompt(false);
+    setEntryId(crypto.randomUUID());
+    setView('puzzle');
+  }
+
   function handleGuess(client: Client) {
     if (gameOver || guessedIds.has(client.id)) return;
     const result = compareGuess(client, target);
@@ -72,7 +95,7 @@ function App() {
 
   return (
     <div className="app">
-      <Header onHelpClick={() => setShowHelp(true)} />
+      <Header onHelpClick={() => setShowHelp(true)} onRefreshClick={handleRefresh} />
 
       <nav className="app-nav" aria-label="Main navigation">
         <button ref={puzzleButtonRef} type="button" aria-current={view === 'puzzle' ? 'page' : undefined} onClick={() => setView('puzzle')}>Puzzle</button>
@@ -80,6 +103,12 @@ function App() {
       </nav>
 
       <main className="app-main" hidden={view !== 'puzzle'}>
+        {demoAnswer && (
+          <div className="demo-banner" role="status">
+            <span className="demo-banner__label">Demo Mode:</span> Next answer is <strong>{demoAnswer}</strong>
+          </div>
+        )}
+
         {!gameOver && (
           <SearchBox
             clients={ALL_CLIENTS}

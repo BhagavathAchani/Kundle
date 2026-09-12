@@ -23,3 +23,14 @@ export function getDailyTarget(eligibleClients: Client[], date: Date = new Date(
   const index = hashString(dateKey) % eligibleClients.length;
   return eligibleClients[index];
 }
+
+/** Picks a random target, avoiding the current one so a refresh always changes the answer. */
+export function getRandomTarget(eligibleClients: Client[], exclude?: Client): Client {
+  if (eligibleClients.length === 0) {
+    throw new Error('No eligible clients configured for the daily target.');
+  }
+  const pool = exclude && eligibleClients.length > 1
+    ? eligibleClients.filter((client) => client.id !== exclude.id)
+    : eligibleClients;
+  return pool[Math.floor(Math.random() * pool.length)];
+}
