@@ -31,7 +31,7 @@ export function HelpModal({ onClose }: HelpModalProps) {
           <dt>HQ</dt>
           <dd>Approximate distance between HQ city centres; a sourced office or registered-office city is used for some missing HQs. Zero km is green, up to 1,000 km orange with a direction, and farther grey. Unresolved locations show Unknown. Coordinates from <a href="https://www.geonames.org/" target="_blank" rel="noreferrer">GeoNames</a>, under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noreferrer">CC BY 4.0</a>.</dd>
           <dt>Similarity</dt>
-          <dd>Matching industry scores 2 points. Matching sector, any shared tag, country and footprint each score 1. Hover or focus to see the breakdown.</dd>
+          <dd>Matching industry scores 2 points. Matching ownership structure, a shared customer focus, and matching regulatory character each score 1. Hover or focus to see the breakdown.</dd>
           <dt>Footprint</dt>
           <dd>Local → Regional → National → International → Global. Arrow shows bigger or smaller.</dd>
         </dl>

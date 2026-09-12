@@ -30,7 +30,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "AFRY",
@@ -54,7 +60,13 @@ export const ALL_CLIENTS: Client[] = [
       "industrial"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "AK Jensen",
@@ -76,7 +88,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "AMV",
@@ -99,7 +117,13 @@ export const ALL_CLIENTS: Client[] = [
       "offshore"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "ASKO Vest",
@@ -123,7 +147,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Abbey National",
@@ -146,7 +176,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Admincontrol",
@@ -169,7 +205,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Advania",
@@ -192,7 +234,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Aibel",
@@ -215,7 +263,13 @@ export const ALL_CLIENTS: Client[] = [
       "construction"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Aidn",
@@ -239,7 +293,13 @@ export const ALL_CLIENTS: Client[] = [
       "startup"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 12
+    "consultantsCurrentlyHere": 12,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "AirContact Group",
@@ -261,7 +321,13 @@ export const ALL_CLIENTS: Client[] = [
       "telecom"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Aker BP",
@@ -284,7 +350,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 130
+    "consultantsCurrentlyHere": 130,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Aker Energy",
@@ -306,7 +378,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Aker Maritime",
@@ -329,7 +407,13 @@ export const ALL_CLIENTS: Client[] = [
       "industrial"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Aker Security",
@@ -351,7 +435,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Aker Solutions",
@@ -375,7 +465,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 10
+    "consultantsCurrentlyHere": 10,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Akershus Energi",
@@ -398,7 +494,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Aller Media",
@@ -421,7 +524,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Altera Infrastructure",
@@ -443,7 +552,13 @@ export const ALL_CLIENTS: Client[] = [
       "shipping"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Altibox",
@@ -465,7 +580,14 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Aneo",
@@ -488,7 +610,13 @@ export const ALL_CLIENTS: Client[] = [
       "power_grid"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Anticimex",
@@ -510,7 +638,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Apotekforeningen",
@@ -532,7 +666,13 @@ export const ALL_CLIENTS: Client[] = [
       "healthcare"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Arbeidstilsynet",
@@ -555,7 +695,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Arbetsförmedlingen",
@@ -578,7 +724,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 9
+    "consultantsCurrentlyHere": 9,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Archer",
@@ -601,7 +753,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 24
+    "consultantsCurrentlyHere": 24,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Arendal kommune",
@@ -622,7 +780,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Arva",
@@ -644,7 +808,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Asker kommune",
@@ -665,7 +836,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Austevoll Seafood",
@@ -687,7 +864,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Auswärtiges Amt",
@@ -710,7 +893,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Autronica Fire and Security",
@@ -732,7 +921,13 @@ export const ALL_CLIENTS: Client[] = [
       "embedded"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Avarn Security",
@@ -754,7 +949,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Avinor",
@@ -777,7 +978,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 9
+    "consultantsCurrentlyHere": 9,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "BDO",
@@ -799,7 +1006,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "BIR",
@@ -821,7 +1034,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "BNP Paribas",
@@ -844,7 +1063,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Bama Gruppen",
@@ -867,7 +1092,13 @@ export const ALL_CLIENTS: Client[] = [
       "logistics"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Bane NOR",
@@ -890,7 +1121,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 96
+    "consultantsCurrentlyHere": 96,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Bane NOR Eiendom",
@@ -913,7 +1151,13 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Banedanmark",
@@ -936,7 +1180,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Baneservice",
@@ -958,7 +1209,13 @@ export const ALL_CLIENTS: Client[] = [
       "construction"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "BarentsWatch",
@@ -981,7 +1238,13 @@ export const ALL_CLIENTS: Client[] = [
       "data_ai"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 16
+    "consultantsCurrentlyHere": 16,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Barne-, ungdoms- og familiedirektoratet (Bufdir)",
@@ -1004,7 +1267,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Barne-, ungdoms- og familieetaten (Bufetat)",
@@ -1026,7 +1295,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Basefarm",
@@ -1049,7 +1324,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Belgium Federal Police",
@@ -1071,7 +1352,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Bergen kommune",
@@ -1092,7 +1379,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Berggård Amundsen & Co",
@@ -1114,7 +1407,13 @@ export const ALL_CLIENTS: Client[] = [
       "construction"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Bokhandlerforeningen",
@@ -1136,7 +1435,13 @@ export const ALL_CLIENTS: Client[] = [
       "publishing"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Boligbygg Oslo KF",
@@ -1158,7 +1463,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Boxon",
@@ -1181,7 +1492,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Br. Birkeland",
@@ -1203,7 +1520,13 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "BrightHR",
@@ -1225,7 +1548,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Brønnøysundregistrene",
@@ -1248,7 +1577,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Buypass",
@@ -1272,7 +1607,14 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "CBC",
@@ -1295,7 +1637,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "CCB Subsea",
@@ -1318,7 +1666,13 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "CEPI",
@@ -1342,7 +1696,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Cambridge Technology Partners",
@@ -1364,7 +1724,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Cappelen Damm",
@@ -1387,7 +1753,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "CargoNet",
@@ -1409,7 +1781,14 @@ export const ALL_CLIENTS: Client[] = [
       "logistics"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B",
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Catella",
@@ -1432,7 +1811,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Cerebral pareseforeningen",
@@ -1455,7 +1840,13 @@ export const ALL_CLIENTS: Client[] = [
       "membership"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Cermaq Norway",
@@ -1476,7 +1867,13 @@ export const ALL_CLIENTS: Client[] = [
       "seafood"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Choice",
@@ -1499,7 +1896,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Coloplast",
@@ -1522,7 +1925,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "ConocoPhillips Norge",
@@ -1544,7 +1953,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Conscia Norway",
@@ -1568,7 +1983,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Coop Norge",
@@ -1591,7 +2012,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 16
+    "consultantsCurrentlyHere": 16,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Creuna",
@@ -1614,7 +2041,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Cyberforsvaret",
@@ -1637,7 +2070,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 97
+    "consultantsCurrentlyHere": 97,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "DIPS",
@@ -1660,7 +2099,13 @@ export const ALL_CLIENTS: Client[] = [
       "saas"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "DNB",
@@ -1684,7 +2129,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 18
+    "consultantsCurrentlyHere": 18,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "DNO",
@@ -1706,7 +2157,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "DNV",
@@ -1731,7 +2188,13 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "DOF Group",
@@ -1755,7 +2218,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 29
+    "consultantsCurrentlyHere": 29,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Dataforeningen",
@@ -1777,7 +2246,13 @@ export const ALL_CLIENTS: Client[] = [
       "education"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "DeepOcean",
@@ -1800,7 +2275,13 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Den Norske Turistforening (DNT)",
@@ -1823,7 +2304,13 @@ export const ALL_CLIENTS: Client[] = [
       "charity"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Den kulturelle skolesekken (DKS)",
@@ -1845,7 +2332,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Den norske kirke",
@@ -1868,7 +2361,13 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Departementenes digitaliseringsorganisasjon (DIO)",
@@ -1891,7 +2390,13 @@ export const ALL_CLIENTS: Client[] = [
       "cloud"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 25
+    "consultantsCurrentlyHere": 25,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Departementenes sikkerhets- og serviceorganisasjon (DSS)",
@@ -1914,7 +2419,13 @@ export const ALL_CLIENTS: Client[] = [
       "cybersecurity"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Det norske oljeselskap",
@@ -1936,7 +2447,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Dfind Consulting",
@@ -1958,7 +2475,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Digitale Gardermoen (DGI)",
@@ -1981,7 +2504,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 24
+    "consultantsCurrentlyHere": 24,
+    "similarityIndustry": "Technology",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Direktoratet for forvaltning og økonomistyring (DFØ)",
@@ -2003,7 +2532,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Direktoratet for høyere utdanning og kompetanse (HK-dir)",
@@ -2026,7 +2561,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 17
+    "consultantsCurrentlyHere": 17,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Direktoratet for medisinske produkter (DMP)",
@@ -2050,7 +2591,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Direktoratet for samfunnssikkerhet og beredskap (DSB)",
@@ -2073,7 +2620,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Drammen Helsepark",
@@ -2095,7 +2648,14 @@ export const ALL_CLIENTS: Client[] = [
       "property"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Drammen kommune",
@@ -2116,7 +2676,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Drammen slalåmklubb",
@@ -2138,7 +2704,13 @@ export const ALL_CLIENTS: Client[] = [
       "membership"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "E-Nettet",
@@ -2160,7 +2732,14 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "EG",
@@ -2183,7 +2762,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "EU",
@@ -2206,7 +2791,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Eide Fjordbruk",
@@ -2227,7 +2818,13 @@ export const ALL_CLIENTS: Client[] = [
       "seafood"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Eiendomsmegler 1",
@@ -2249,7 +2846,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Eika",
@@ -2272,7 +2875,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Elhub",
@@ -2295,7 +2904,14 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Elmera Group",
@@ -2317,7 +2933,14 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Elopak",
@@ -2341,7 +2964,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Embriq",
@@ -2364,7 +2993,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Energimyndigheten",
@@ -2386,7 +3021,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Enova",
@@ -2409,7 +3050,13 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 11
+    "consultantsCurrentlyHere": 11,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Entur",
@@ -2433,7 +3080,14 @@ export const ALL_CLIENTS: Client[] = [
       "data_ai"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Equinor",
@@ -2457,7 +3111,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 189
+    "consultantsCurrentlyHere": 189,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Europark",
@@ -2480,7 +3140,13 @@ export const ALL_CLIENTS: Client[] = [
       "road"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Europol",
@@ -2502,7 +3168,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Eviny",
@@ -2525,7 +3197,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Eye-share",
@@ -2547,7 +3226,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "FUS barnehagene",
@@ -2569,7 +3254,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "FXOpen",
@@ -2591,7 +3282,14 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Falck",
@@ -2614,7 +3312,14 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Felleskjøpet Agri",
@@ -2637,7 +3342,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Fieldmade",
@@ -2660,7 +3371,13 @@ export const ALL_CLIENTS: Client[] = [
       "startup"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Fieldnode",
@@ -2682,7 +3399,13 @@ export const ALL_CLIENTS: Client[] = [
       "startup"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Fifty",
@@ -2705,7 +3428,13 @@ export const ALL_CLIENTS: Client[] = [
       "startup"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Finago Group",
@@ -2728,7 +3457,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Finansdepartementet",
@@ -2750,7 +3485,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Finanstilsynet",
@@ -2774,7 +3515,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Fiskeridirektoratet",
@@ -2798,7 +3545,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Fitjar Mekaniske Verksted",
@@ -2820,7 +3573,13 @@ export const ALL_CLIENTS: Client[] = [
       "manufacturing"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Fjellinjen",
@@ -2842,7 +3601,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Fjord1",
@@ -2864,7 +3629,13 @@ export const ALL_CLIENTS: Client[] = [
       "transit"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Fjordkraft",
@@ -2886,7 +3657,14 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Flakk Gruppen",
@@ -2909,7 +3687,13 @@ export const ALL_CLIENTS: Client[] = [
       "property"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Flytoget",
@@ -2932,7 +3716,14 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Folkehelseinstituttet (FHI)",
@@ -2955,7 +3746,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Fonus",
@@ -2977,7 +3775,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Fornybar Norge",
@@ -3000,7 +3804,13 @@ export const ALL_CLIENTS: Client[] = [
       "renewables"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Forsvaret",
@@ -3022,7 +3832,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 26
+    "consultantsCurrentlyHere": 26,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Forsvarets forskningsinstitutt (FFI)",
@@ -3045,7 +3861,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 12
+    "consultantsCurrentlyHere": 12,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Forsvarets høgskole",
@@ -3068,7 +3891,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Forsvarsbygg",
@@ -3092,7 +3921,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 9
+    "consultantsCurrentlyHere": 9,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Forsvarsdepartementet (FD)",
@@ -3115,7 +3950,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Forsvarsmateriell (FMA)",
@@ -3137,7 +3978,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 29
+    "consultantsCurrentlyHere": 29,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Framo",
@@ -3159,7 +4006,13 @@ export const ALL_CLIENTS: Client[] = [
       "manufacturing"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Fred. Olsen & Co",
@@ -3182,7 +4035,13 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Fremtind Forsikring",
@@ -3205,7 +4064,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Freyr Battery",
@@ -3228,7 +4093,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Frontica Business Solutions",
@@ -3250,7 +4121,13 @@ export const ALL_CLIENTS: Client[] = [
       "offshore"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "GK Gruppen",
@@ -3273,7 +4150,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Gammel Nok",
@@ -3294,7 +4177,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Gard",
@@ -3317,7 +4206,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Gassco",
@@ -3340,7 +4235,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 64
+    "consultantsCurrentlyHere": 64,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "GeoNorge",
@@ -3362,7 +4263,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Gjensidige",
@@ -3385,7 +4292,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 9
+    "consultantsCurrentlyHere": 9,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "GlobalConnect",
@@ -3408,7 +4321,14 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Gloppen kommune",
@@ -3429,7 +4349,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Green Mountain",
@@ -3451,7 +4377,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Grønt Punkt",
@@ -3473,7 +4405,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Gunnar Karlsen",
@@ -3495,7 +4433,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Göteborg Energi",
@@ -3517,7 +4461,14 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 7
+    "consultantsCurrentlyHere": 7,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Hafslund",
@@ -3540,7 +4491,14 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Halliburton",
@@ -3564,7 +4522,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 33
+    "consultantsCurrentlyHere": 33,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Handelshøyskolen BI",
@@ -3586,7 +4550,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 9
+    "consultantsCurrentlyHere": 9,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Haraldsplass Diakonale Sykehus",
@@ -3609,7 +4579,14 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Harbour Energy",
@@ -3632,7 +4609,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Haugaland Interkommunale Miljøverk",
@@ -3654,7 +4637,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Haugen-Gruppen Nordic",
@@ -3678,7 +4667,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Havforskningsinstituttet",
@@ -3702,7 +4697,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 17
+    "consultantsCurrentlyHere": 17,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Havila Voyages",
@@ -3725,7 +4727,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Heiskonsulenten",
@@ -3747,7 +4755,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "HelloStavanger",
@@ -3768,7 +4782,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Helse Midt-Norge IT (Hemit)",
@@ -3791,7 +4811,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Helse Nord IKT",
@@ -3814,7 +4840,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Helse Nord RHF",
@@ -3837,7 +4869,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Helse Vest",
@@ -3860,7 +4899,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Helse Vest IKT",
@@ -3883,7 +4929,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Helsedirektoratet",
@@ -3906,7 +4958,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Helseplattformen",
@@ -3929,7 +4987,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Hjemmet Mortensen",
@@ -3952,7 +5016,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "HoloCare",
@@ -3975,7 +5045,13 @@ export const ALL_CLIENTS: Client[] = [
       "data_ai"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Hovedstadens Beredskab",
@@ -3997,7 +5073,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Husbanken",
@@ -4021,7 +5103,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Hydro Rein",
@@ -4043,7 +5131,13 @@ export const ALL_CLIENTS: Client[] = [
       "power_grid"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Hyundai Motor Norway",
@@ -4066,7 +5160,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Hälso- och sjukvårdsförvaltningen (HSF)",
@@ -4089,7 +5189,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 10
+    "consultantsCurrentlyHere": 10,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Høgskolen i Østfold",
@@ -4111,7 +5218,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Høgskulen på Vestlandet",
@@ -4133,7 +5246,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Høyskolen Kristiania",
@@ -4155,7 +5274,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "IKT Agder",
@@ -4178,7 +5303,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Technology",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Ice",
@@ -4200,7 +5331,14 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Ikomm",
@@ -4223,7 +5361,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Technology",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Impetus AFEA",
@@ -4245,7 +5389,13 @@ export const ALL_CLIENTS: Client[] = [
       "consulting"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Inera",
@@ -4268,7 +5418,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 40
+    "consultantsCurrentlyHere": 40,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Innovasjon Norge",
@@ -4292,7 +5448,13 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Insicta",
@@ -4314,7 +5476,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Institutt for Energiteknikk (IFE)",
@@ -4336,7 +5504,14 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Institutt for samfunnsforskning",
@@ -4358,7 +5533,14 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Integrerings- og mangfoldsdirektoratet (IMDi)",
@@ -4381,7 +5563,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Inter IKEA",
@@ -4404,7 +5592,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Inven2",
@@ -4426,7 +5620,13 @@ export const ALL_CLIENTS: Client[] = [
       "healthcare"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Itera",
@@ -4450,7 +5650,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Jernbanedirektoratet",
@@ -4473,7 +5679,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Jernbaneverket",
@@ -4496,7 +5708,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Justis- og beredskapsdepartementet",
@@ -4520,7 +5739,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "KONE",
@@ -4544,7 +5769,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "KPMG",
@@ -4567,7 +5798,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 0
+    "consultantsCurrentlyHere": 0,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kalmar Länstrafik",
@@ -4589,7 +5826,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kammarkollegiet",
@@ -4611,7 +5855,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Karolinska Universitetssjukhuset",
@@ -4635,7 +5885,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kikora",
@@ -4657,7 +5914,13 @@ export const ALL_CLIENTS: Client[] = [
       "saas"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kirkens bymisjon",
@@ -4680,7 +5943,13 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kirkepartner",
@@ -4702,7 +5971,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kitron",
@@ -4726,7 +6001,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kjeldsberg",
@@ -4747,7 +6028,13 @@ export const ALL_CLIENTS: Client[] = [
       "property"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kjøpmannshuset",
@@ -4769,7 +6056,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Knutsen OAS Shipping",
@@ -4791,7 +6084,13 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kobbevik & Furuholmen",
@@ -4812,7 +6111,13 @@ export const ALL_CLIENTS: Client[] = [
       "seafood"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kommuneforlaget",
@@ -4834,7 +6139,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kommunesektorens organisasjon (KS)",
@@ -4857,7 +6168,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kongsberg Defence & Aerospace",
@@ -4880,7 +6197,13 @@ export const ALL_CLIENTS: Client[] = [
       "embedded"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 25
+    "consultantsCurrentlyHere": 25,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kongsberg Digital",
@@ -4903,7 +6226,13 @@ export const ALL_CLIENTS: Client[] = [
       "data_ai"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kongsberg Discovery",
@@ -4926,7 +6255,13 @@ export const ALL_CLIENTS: Client[] = [
       "manufacturing"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kongsberg Gruppen",
@@ -4950,7 +6285,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kongsberg Maritime",
@@ -4973,7 +6314,13 @@ export const ALL_CLIENTS: Client[] = [
       "manufacturing"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 19
+    "consultantsCurrentlyHere": 19,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kongsberg Satellite Services (KSAT)",
@@ -4996,7 +6343,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kongsberg Seatex",
@@ -5019,7 +6372,13 @@ export const ALL_CLIENTS: Client[] = [
       "manufacturing"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kontoret for voldsoffererstatning",
@@ -5042,7 +6401,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kredinor",
@@ -5064,7 +6429,14 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kreftforeningen",
@@ -5087,7 +6459,13 @@ export const ALL_CLIENTS: Client[] = [
       "membership"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kriminalomsorgsdirektoratet (KDI)",
@@ -5110,7 +6488,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kripos",
@@ -5132,7 +6516,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Kunstavisen",
@@ -5155,7 +6545,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Kystverket",
@@ -5178,7 +6574,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 18
+    "consultantsCurrentlyHere": 18,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "LACO",
@@ -5199,7 +6601,13 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "LOfavør",
@@ -5221,7 +6629,13 @@ export const ALL_CLIENTS: Client[] = [
       "insurance"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Laerdal Medical",
@@ -5245,7 +6659,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Landbrukets Dataflyt",
@@ -5268,7 +6688,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Landbruksdirektoratet",
@@ -5291,7 +6717,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Lantmännen",
@@ -5314,7 +6746,13 @@ export const ALL_CLIENTS: Client[] = [
       "cooperative"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Leangen Travbane",
@@ -5336,7 +6774,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Lefdal Mine Datacenter",
@@ -5358,7 +6802,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Leif Hoegh",
@@ -5380,7 +6830,13 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Lerøy Seafood Group",
@@ -5402,7 +6858,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 12
+    "consultantsCurrentlyHere": 12,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Lovisenberg Diakonale Sykehus",
@@ -5425,7 +6887,14 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Lyse",
@@ -5448,7 +6917,14 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 61
+    "consultantsCurrentlyHere": 61,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Länsförsäkringar",
@@ -5471,7 +6947,13 @@ export const ALL_CLIENTS: Client[] = [
       "cooperative"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Lånekassen",
@@ -5495,7 +6977,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Maersk Training",
@@ -5518,7 +7006,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Mantena",
@@ -5540,7 +7034,14 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Maritim pensjonskasse (MPK)",
@@ -5562,7 +7063,14 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Financial services",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Maritime Robotics",
@@ -5586,7 +7094,13 @@ export const ALL_CLIENTS: Client[] = [
       "defense"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Mastercard Payment Services",
@@ -5609,7 +7123,14 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Matiq",
@@ -5632,7 +7153,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Medistim",
@@ -5655,7 +7182,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Memodo",
@@ -5678,7 +7211,13 @@ export const ALL_CLIENTS: Client[] = [
       "ecommerce"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Mer",
@@ -5700,7 +7239,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Mesta",
@@ -5723,7 +7268,13 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Mestergruppen",
@@ -5746,7 +7297,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Metria",
@@ -5768,7 +7325,13 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Miljødirektoratet",
@@ -5791,7 +7354,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 16
+    "consultantsCurrentlyHere": 16,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Mnemonic",
@@ -5813,7 +7382,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Modulvegger Gruppen",
@@ -5836,7 +7411,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Morrow Bank",
@@ -5859,7 +7440,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Morrow Batteries",
@@ -5881,7 +7468,13 @@ export const ALL_CLIENTS: Client[] = [
       "renewables"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Multiconsult",
@@ -5904,7 +7497,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Mural",
@@ -5927,7 +7526,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Møgster Management",
@@ -5949,7 +7554,13 @@ export const ALL_CLIENTS: Client[] = [
       "maritime"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Møller Mobility Group",
@@ -5972,7 +7583,13 @@ export const ALL_CLIENTS: Client[] = [
       "logistics"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "NAIE (Norsk AI-Etikkforening)",
@@ -5994,7 +7611,13 @@ export const ALL_CLIENTS: Client[] = [
       "data_ai"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "NATO Joint Warfare Center",
@@ -6016,7 +7639,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "NAV",
@@ -6039,7 +7668,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 42
+    "consultantsCurrentlyHere": 42,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "NEP Norway",
@@ -6062,7 +7697,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "NRK",
@@ -6087,7 +7728,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 27
+    "consultantsCurrentlyHere": 27,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "NSB",
@@ -6110,7 +7757,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "NTNU",
@@ -6132,7 +7786,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 12
+    "consultantsCurrentlyHere": 12,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Nammo",
@@ -6155,7 +7815,13 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Nasjonal sikkerhetsmyndighet (NSM)",
@@ -6179,7 +7845,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Nasjonalt ID-senter",
@@ -6202,7 +7874,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Neat",
@@ -6225,7 +7903,13 @@ export const ALL_CLIENTS: Client[] = [
       "startup"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Nestlé Norge",
@@ -6248,7 +7932,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "NetCom",
@@ -6270,7 +7960,14 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Nets",
@@ -6293,7 +7990,14 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Nidaros Domkirkes Restaureringsarbeider (NDR)",
@@ -6315,7 +8019,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Nobels Fredssenter",
@@ -6337,7 +8047,13 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Norad",
@@ -6361,7 +8077,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 16
+    "consultantsCurrentlyHere": 16,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Nordic Semiconductor",
@@ -6384,7 +8106,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Nordre Follo kommune",
@@ -6405,7 +8133,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Norges Bank",
@@ -6429,7 +8163,13 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Financial services",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Norges Geotekniske Institutt (NGI)",
@@ -6452,7 +8192,14 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Norges Tennis- og Padelforbund",
@@ -6474,7 +8221,13 @@ export const ALL_CLIENTS: Client[] = [
       "membership"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Norges forskningsråd",
@@ -6497,7 +8250,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 10
+    "consultantsCurrentlyHere": 10,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Norges idrettsforbund (NIF)",
@@ -6520,7 +8279,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 10
+    "consultantsCurrentlyHere": 10,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "NorgesGruppen",
@@ -6543,7 +8308,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Norlandia Health & Care Group",
@@ -6566,7 +8337,14 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 17
+    "consultantsCurrentlyHere": 17,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Norled",
@@ -6588,7 +8366,13 @@ export const ALL_CLIENTS: Client[] = [
       "transit"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Norli",
@@ -6611,7 +8395,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Norsk Fiskeauksjon",
@@ -6633,7 +8423,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Norsk Helsenett",
@@ -6657,7 +8453,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Norsk Hydro",
@@ -6681,7 +8483,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Norsk Kylling",
@@ -6703,7 +8511,13 @@ export const ALL_CLIENTS: Client[] = [
       "agriculture"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Norsk Sykepleierforbund",
@@ -6726,7 +8540,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Norsk pasientskadeerstatning",
@@ -6749,7 +8569,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Nortura",
@@ -6772,7 +8598,13 @@ export const ALL_CLIENTS: Client[] = [
       "cooperative"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Norwegian Air Shuttle",
@@ -6795,7 +8627,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Noteless",
@@ -6818,7 +8656,13 @@ export const ALL_CLIENTS: Client[] = [
       "startup"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Nærings- og fiskeridepartementet",
@@ -6841,7 +8685,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 0
+    "consultantsCurrentlyHere": 0,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "OBOS",
@@ -6865,7 +8715,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Odfjell Technology",
@@ -6888,7 +8744,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Odin Forvaltning",
@@ -6910,7 +8772,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Okea",
@@ -6932,7 +8800,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Olav Thon Gruppen",
@@ -6955,7 +8829,13 @@ export const ALL_CLIENTS: Client[] = [
       "hotel"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Orange Business",
@@ -6979,7 +8859,14 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Orkla",
@@ -7003,7 +8890,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Oslo Pensjonsforsikring",
@@ -7026,7 +8919,14 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Oslo Taxi",
@@ -7048,7 +8948,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Oslo kommune",
@@ -7069,7 +8975,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 131
+    "consultantsCurrentlyHere": 131,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Oslo universitetssykehus (OUS)",
@@ -7092,7 +9004,14 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "OsloMet – storbyuniversitetet",
@@ -7114,7 +9033,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Oslobygg KF",
@@ -7137,7 +9062,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 12
+    "consultantsCurrentlyHere": 12,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Pensjonstrygden for sjømenn",
@@ -7160,7 +9091,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Petroleum Geo-Services (PGS)",
@@ -7183,7 +9121,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Pexip",
@@ -7206,7 +9150,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Pipelife",
@@ -7229,7 +9179,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Pipeotech",
@@ -7252,7 +9208,13 @@ export const ALL_CLIENTS: Client[] = [
       "startup"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Piql",
@@ -7274,7 +9236,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Polaris Media",
@@ -7298,7 +9266,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Police Grand-Ducale (Luxembourg)",
@@ -7320,7 +9294,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 7
+    "consultantsCurrentlyHere": 7,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Politecnico di Milano",
@@ -7342,7 +9322,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Politidirektoratet (POD)",
@@ -7365,7 +9351,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 15
+    "consultantsCurrentlyHere": 15,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Politiet",
@@ -7387,7 +9379,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Politiets Data- og Materielltjeneste (PDMT)",
@@ -7409,7 +9407,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Politiets IT-enhet (PIT)",
@@ -7432,7 +9436,13 @@ export const ALL_CLIENTS: Client[] = [
       "cloud"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 39
+    "consultantsCurrentlyHere": 39,
+    "similarityIndustry": "Technology",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Posten Bring",
@@ -7455,7 +9465,14 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 47
+    "consultantsCurrentlyHere": 47,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B",
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Preem Norge",
@@ -7477,7 +9494,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Region Stockholm",
@@ -7500,7 +9523,13 @@ export const ALL_CLIENTS: Client[] = [
       "transit"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 51
+    "consultantsCurrentlyHere": 51,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Reitan Eiendom",
@@ -7522,7 +9551,13 @@ export const ALL_CLIENTS: Client[] = [
       "retail"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Relekta",
@@ -7544,7 +9579,13 @@ export const ALL_CLIENTS: Client[] = [
       "chemicals"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Rema 1000",
@@ -7566,7 +9607,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Retura Norge",
@@ -7587,7 +9634,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Rigspolitiet (Danmark)",
@@ -7609,7 +9662,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "RiksTV",
@@ -7632,7 +9691,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 0
+    "consultantsCurrentlyHere": 0,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Ringerikskraft",
@@ -7654,7 +9719,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Romanian Police",
@@ -7676,7 +9748,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Ruter",
@@ -7699,7 +9777,14 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Rælingen kommune",
@@ -7720,7 +9805,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Røde Kors",
@@ -7744,7 +9835,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Rødne Fjord Cruise",
@@ -7767,7 +9864,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "SEB",
@@ -7791,7 +9894,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SINTEF",
@@ -7814,7 +9923,14 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 31
+    "consultantsCurrentlyHere": 31,
+    "similarityIndustry": "Public sector",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Saab",
@@ -7837,7 +9953,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SalMar",
@@ -7862,7 +9984,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Salesforce",
@@ -7887,7 +10015,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Sammen (Studentsamskipnaden på Vestlandet)",
@@ -7910,7 +10044,13 @@ export const ALL_CLIENTS: Client[] = [
       "property"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Santander Consumer Bank",
@@ -7933,7 +10073,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sarpsborg kommune",
@@ -7954,7 +10100,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SberBank of Russia",
@@ -7977,7 +10129,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Schlumberger",
@@ -8001,7 +10159,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Securitas Technology",
@@ -8023,7 +10187,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Semine",
@@ -8046,7 +10216,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Sense Communications",
@@ -8068,7 +10244,14 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sicra",
@@ -8090,7 +10273,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Sikt",
@@ -8114,7 +10303,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Technology",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Sissener Kapitalforvaltning",
@@ -8135,7 +10330,13 @@ export const ALL_CLIENTS: Client[] = [
       "banking"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sjøfartsdirektoratet",
@@ -8159,7 +10360,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 9
+    "consultantsCurrentlyHere": 9,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sjømatrådet",
@@ -8182,7 +10389,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Skanska Norge",
@@ -8205,7 +10418,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Skanska Sverige",
@@ -8228,7 +10447,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Skatteetaten",
@@ -8251,7 +10476,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 32
+    "consultantsCurrentlyHere": 32,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Skatteverket",
@@ -8274,7 +10505,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Skaun kommune",
@@ -8295,7 +10532,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Softeq",
@@ -8318,7 +10561,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Sokkeldirektoratet",
@@ -8342,7 +10591,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 12
+    "consultantsCurrentlyHere": 12,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sony Interactive Entertainment",
@@ -8366,7 +10621,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "SpareBank 1 Forsikring",
@@ -8389,7 +10650,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SpareBank 1 Gruppen",
@@ -8412,7 +10679,13 @@ export const ALL_CLIENTS: Client[] = [
       "cooperative"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SpareBank 1 Nord-Norge",
@@ -8436,7 +10709,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SpareBank 1 Oslo",
@@ -8459,7 +10738,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SpareBank 1 Regnskapshuset Nord-Norge",
@@ -8482,7 +10767,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "SpareBank 1 SMN",
@@ -8506,7 +10797,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SpareBank 1 Sør-Norge",
@@ -8530,7 +10827,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 8
+    "consultantsCurrentlyHere": 8,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "SpareBank 1 Utvikling",
@@ -8553,7 +10856,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 62
+    "consultantsCurrentlyHere": 62,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "SpareBank 1-alliansen",
@@ -8576,7 +10885,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 7
+    "consultantsCurrentlyHere": 7,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sparebanken Vest",
@@ -8600,7 +10915,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Spir Group",
@@ -8622,7 +10943,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Spordrift",
@@ -8645,7 +10972,14 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sporveien",
@@ -8668,7 +11002,14 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 30
+    "consultantsCurrentlyHere": 30,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "St. Olavs hospital",
@@ -8691,7 +11032,14 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "StartupLab",
@@ -8713,7 +11061,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Statens Helsetilsyn",
@@ -8737,7 +11091,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Statens arbeidsmiljøinstitutt (STAMI)",
@@ -8760,7 +11120,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2B",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Statens jernbanetilsyn",
@@ -8784,7 +11151,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Statens legemiddelverk",
@@ -8808,7 +11181,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Statens pensjonskasse (SPK)",
@@ -8832,7 +11211,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Statens vegvesen",
@@ -8855,7 +11241,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 153
+    "consultantsCurrentlyHere": 153,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Statistisk sentralbyrå (SSB)",
@@ -8878,7 +11270,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Statkraft",
@@ -8903,7 +11301,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 29
+    "consultantsCurrentlyHere": 29,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Statnett",
@@ -8926,7 +11330,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 151
+    "consultantsCurrentlyHere": 151,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Statsbygg",
@@ -8950,7 +11361,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Statsministerens kontor (SMK)",
@@ -8972,7 +11389,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Stavanger kommune",
@@ -8993,7 +11416,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Stavanger universitetssjukehus",
@@ -9016,7 +11445,14 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Stiftelsen Miljømerking i Norge",
@@ -9039,7 +11475,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Stiftelsen Signo",
@@ -9063,7 +11505,14 @@ export const ALL_CLIENTS: Client[] = [
       "foundation"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Stockholms stad",
@@ -9084,7 +11533,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Stokke",
@@ -9108,7 +11563,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 10
+    "consultantsCurrentlyHere": 10,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Storebrand",
@@ -9132,7 +11593,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Storstockholms Lokaltrafik (SL)",
@@ -9155,7 +11622,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 24
+    "consultantsCurrentlyHere": 24,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Stortinget",
@@ -9177,7 +11651,13 @@ export const ALL_CLIENTS: Client[] = [
       "ministry"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Strawberry",
@@ -9200,7 +11680,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Studentsamskipnaden i Oslo",
@@ -9223,7 +11709,13 @@ export const ALL_CLIENTS: Client[] = [
       "property"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Studentsamskipnaden i Trondheim (Sit)",
@@ -9246,7 +11738,13 @@ export const ALL_CLIENTS: Client[] = [
       "property"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Svenska Polisen",
@@ -9268,7 +11766,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sveriges Ingenjörer",
@@ -9291,7 +11795,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 11
+    "consultantsCurrentlyHere": 11,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Sveriges Kommuner och Regioner",
@@ -9315,7 +11825,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Swedbank Pay",
@@ -9338,7 +11854,14 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Swiss Federal Police",
@@ -9360,7 +11883,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sykehusinnkjøp",
@@ -9383,7 +11912,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Sykehuspartner",
@@ -9407,7 +11942,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 26
+    "consultantsCurrentlyHere": 26,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "TESS",
@@ -9430,7 +11971,13 @@ export const ALL_CLIENTS: Client[] = [
       "logistics"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "TINE",
@@ -9454,7 +12001,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 12
+    "consultantsCurrentlyHere": 12,
+    "similarityIndustry": "Agriculture & food",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Tafjord Kraft",
@@ -9477,7 +12030,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Tandberg Television",
@@ -9500,7 +12060,13 @@ export const ALL_CLIENTS: Client[] = [
       "manufacturing"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "TechnipFMC",
@@ -9524,7 +12090,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Tekna",
@@ -9547,7 +12119,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Tele2",
@@ -9570,7 +12148,14 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Telenor",
@@ -9595,7 +12180,14 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 64
+    "consultantsCurrentlyHere": 64,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Teleplan Globe",
@@ -9618,7 +12210,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Telia",
@@ -9642,7 +12240,14 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 15
+    "consultantsCurrentlyHere": 15,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Telstra",
@@ -9666,7 +12271,14 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Tensio",
@@ -9688,7 +12300,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Thales",
@@ -9712,7 +12331,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Tide Reiser",
@@ -9734,7 +12359,14 @@ export const ALL_CLIENTS: Client[] = [
       "travel"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Tietoevry",
@@ -9759,7 +12391,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Technology",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Tolletaten",
@@ -9783,7 +12421,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 30
+    "consultantsCurrentlyHere": 30,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Tools",
@@ -9805,7 +12449,13 @@ export const ALL_CLIENTS: Client[] = [
       "industrial"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Toyota Norge",
@@ -9828,7 +12478,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Tripletex",
@@ -9851,7 +12507,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2b"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Trondheim Tech Port",
@@ -9874,7 +12536,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Trondheim kommunale pensjonskasse",
@@ -9896,7 +12564,14 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Financial services",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Trondheim kommune",
@@ -9917,7 +12592,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 21
+    "consultantsCurrentlyHere": 21,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Tryg",
@@ -9941,7 +12622,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Trygg Trafikk",
@@ -9965,7 +12652,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Trygghetsfonden TSL",
@@ -9987,7 +12680,13 @@ export const ALL_CLIENTS: Client[] = [
       "welfare"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "TrønderEnergi",
@@ -10011,7 +12710,13 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Tysvær kommune",
@@ -10032,7 +12737,13 @@ export const ALL_CLIENTS: Client[] = [
       "municipal"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Udviklings- og Forenklingsstyrelsen (UFST)",
@@ -10055,7 +12766,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Ungt Entreprenørskap",
@@ -10078,7 +12795,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Unionen",
@@ -10100,7 +12823,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 12
+    "consultantsCurrentlyHere": 12,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Universitetet i Oslo (UiO)",
@@ -10122,7 +12851,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Universitetet i Stavanger (UiS)",
@@ -10144,7 +12879,13 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 4
+    "consultantsCurrentlyHere": 4,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Universitetssykehuset Nord-Norge (UNN)",
@@ -10167,7 +12908,14 @@ export const ALL_CLIENTS: Client[] = [
       "research"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "University of Edinburgh",
@@ -10190,7 +12938,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "University of South Wales",
@@ -10213,7 +12967,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Utdanningsdirektoratet",
@@ -10236,7 +12996,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Utlendingsdirektoratet (UDI)",
@@ -10260,7 +13026,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 13
+    "consultantsCurrentlyHere": 13,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Varner",
@@ -10284,7 +13056,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Vattenfall",
@@ -10308,7 +13086,14 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Veidekke",
@@ -10331,7 +13116,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Construction & real estate",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Vejdirektoratet",
@@ -10354,7 +13145,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Vend",
@@ -10377,7 +13174,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Professional services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Versatel Telecom",
@@ -10400,7 +13203,14 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Telecommunications",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Vestland fylkeskommune",
@@ -10424,7 +13234,13 @@ export const ALL_CLIENTS: Client[] = [
       "road"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 5
+    "consultantsCurrentlyHere": 5,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Vianode",
@@ -10447,7 +13263,13 @@ export const ALL_CLIENTS: Client[] = [
       "chemicals"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Vinmonopolet",
@@ -10471,7 +13293,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Vipps MobilePay",
@@ -10495,7 +13323,14 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Vision",
@@ -10518,7 +13353,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Other",
+    "ownership": "Nonprofit / NGO",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Visma",
@@ -10542,7 +13383,13 @@ export const ALL_CLIENTS: Client[] = [
       "nordic"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Technology",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Vita",
@@ -10565,7 +13412,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 3
+    "consultantsCurrentlyHere": 3,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Volkswagen Møller Bilfinans",
@@ -10588,7 +13441,13 @@ export const ALL_CLIENTS: Client[] = [
       "b2c"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Financial services",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Vy Buss",
@@ -10610,7 +13469,14 @@ export const ALL_CLIENTS: Client[] = [
       "state_owned"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Vygruppen",
@@ -10634,7 +13500,14 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Västra Götalandsregionen (VGR)",
@@ -10657,7 +13530,13 @@ export const ALL_CLIENTS: Client[] = [
       "transit"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Västtrafik",
@@ -10680,7 +13559,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Regional",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Vår Energi",
@@ -10702,7 +13588,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 49
+    "consultantsCurrentlyHere": 49,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Vårdbolaget Tiohundra",
@@ -10725,7 +13617,14 @@ export const ALL_CLIENTS: Client[] = [
       "regional"
     ],
     "operatingFootprint": "Local",
-    "consultantsCurrentlyHere": 2
+    "consultantsCurrentlyHere": 2,
+    "similarityIndustry": "Healthcare & life sciences",
+    "ownership": "State-owned enterprise",
+    "customerOrientation": [
+      "B2C / consumer-facing",
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Wallenius Wilhelmsen",
@@ -10749,7 +13648,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 23
+    "consultantsCurrentlyHere": 23,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Warner Bros Discovery",
@@ -10773,7 +13678,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Media & entertainment",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Wilhelmsen",
@@ -10796,7 +13707,13 @@ export const ALL_CLIENTS: Client[] = [
       "logistics"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 6
+    "consultantsCurrentlyHere": 6,
+    "similarityIndustry": "Transport & logistics",
+    "ownership": "Privately held",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "XXL",
@@ -10821,7 +13738,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Retail & consumer",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2C / consumer-facing"
+    ],
+    "regulatoryCharacter": "Standard commercial / lightly regulated"
   },
   {
     "id": "Yara International",
@@ -10845,7 +13768,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "Global",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Manufacturing",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "Zaptec",
@@ -10869,7 +13798,13 @@ export const ALL_CLIENTS: Client[] = [
       "listed"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Energy & utilities",
+    "ownership": "Publicly listed",
+    "customerOrientation": [
+      "B2B"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "eHälsomyndigheten",
@@ -10892,7 +13827,13 @@ export const ALL_CLIENTS: Client[] = [
       "national"
     ],
     "operatingFootprint": "National",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   },
   {
     "id": "eu-LISA",
@@ -10915,7 +13856,13 @@ export const ALL_CLIENTS: Client[] = [
       "international"
     ],
     "operatingFootprint": "International",
-    "consultantsCurrentlyHere": 1
+    "consultantsCurrentlyHere": 1,
+    "similarityIndustry": "Public sector",
+    "ownership": "Government agency",
+    "customerOrientation": [
+      "Public / citizen-facing"
+    ],
+    "regulatoryCharacter": "Heavily regulated / critical infrastructure"
   }
 ];
 

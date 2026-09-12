@@ -60,6 +60,10 @@ export interface Client {
   tags: string[];
   operatingFootprint: OperatingFootprint;
   consultantsCurrentlyHere: number | null;
+  similarityIndustry: Industry;
+  ownership: Ownership;
+  customerOrientation: CustomerOrientation[];
+  regulatoryCharacter: RegulatoryCharacter;
 }
 
 export type TileStatus = 'green' | 'orange' | 'grey';
@@ -75,6 +79,7 @@ export interface TileResult {
 
 export interface SimilarityBreakdownItem {
   label: string;
+  value: string;
   matched: boolean;
   points: number;
   maxPoints: number;

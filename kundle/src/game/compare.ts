@@ -135,7 +135,7 @@ export function compareLocation(guess: Client, target: Client): TileResult {
 export function compareSimilarity(guess: Client, target: Client): SimilarityResult {
   const breakdown: SimilarityBreakdownItem[] = [];
 
-  const industryMatch = guess.industry === target.industry;
+  const industryMatch = guess.similarityIndustry === target.similarityIndustry;
   breakdown.push({
     label: 'Industry',
     matched: industryMatch,
@@ -143,36 +143,28 @@ export function compareSimilarity(guess: Client, target: Client): SimilarityResu
     maxPoints: SIMILARITY_CONFIG.industryPoints,
   });
 
-  const sectorMatch = guess.sector === target.sector;
+  const ownershipMatch = guess.ownership === target.ownership;
   breakdown.push({
-    label: 'Sector',
-    matched: sectorMatch,
-    points: sectorMatch ? SIMILARITY_CONFIG.sectorPoints : 0,
-    maxPoints: SIMILARITY_CONFIG.sectorPoints,
+    label: 'Ownership',
+    matched: ownershipMatch,
+    points: ownershipMatch ? SIMILARITY_CONFIG.ownershipPoints : 0,
+    maxPoints: SIMILARITY_CONFIG.ownershipPoints,
   });
 
-  const tagsMatch = guess.tags.some(tag => target.tags.includes(tag));
+  const orientationMatch = guess.customerOrientation.some(orientation => target.customerOrientation.includes(orientation));
   breakdown.push({
-    label: 'Shared tags',
-    matched: tagsMatch,
-    points: tagsMatch ? SIMILARITY_CONFIG.tagsPoints : 0,
-    maxPoints: SIMILARITY_CONFIG.tagsPoints,
+    label: 'Customer focus',
+    matched: orientationMatch,
+    points: orientationMatch ? SIMILARITY_CONFIG.orientationPoints : 0,
+    maxPoints: SIMILARITY_CONFIG.orientationPoints,
   });
 
-  const countryMatch = guess.country === target.country;
+  const regulatoryMatch = guess.regulatoryCharacter === target.regulatoryCharacter;
   breakdown.push({
-    label: 'Country',
-    matched: countryMatch,
-    points: countryMatch ? SIMILARITY_CONFIG.countryPoints : 0,
-    maxPoints: SIMILARITY_CONFIG.countryPoints,
-  });
-
-  const footprintMatch = guess.operatingFootprint === target.operatingFootprint;
-  breakdown.push({
-    label: 'Footprint',
-    matched: footprintMatch,
-    points: footprintMatch ? SIMILARITY_CONFIG.footprintPoints : 0,
-    maxPoints: SIMILARITY_CONFIG.footprintPoints,
+    label: 'Regulation',
+    matched: regulatoryMatch,
+    points: regulatoryMatch ? SIMILARITY_CONFIG.regulatoryPoints : 0,
+    maxPoints: SIMILARITY_CONFIG.regulatoryPoints,
   });
 
   const score = breakdown.reduce((sum, item) => sum + item.points, 0);

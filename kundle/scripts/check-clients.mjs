@@ -8,7 +8,8 @@ const root = fileURLToPath(new URL('../', import.meta.url));
 const server = await createServer({ root, server: { middlewareMode: true }, appType: 'custom' });
 try {
   const { ALL_CLIENTS } = await server.ssrLoadModule('/src/data/clients.ts');
-  const { compareCompanySize, compareSopraStaff, compareClientSince, compareOperatingFootprint, compareLocation, compareGuess } = await server.ssrLoadModule('/src/game/compare.ts');
+  const { compareCompanySize, compareSopraStaff, compareClientSince, compareOperatingFootprint, compareSimilarity, compareLocation, compareGuess } = await server.ssrLoadModule('/src/game/compare.ts');
+  const { SIMILARITY_MAX_SCORE } = await server.ssrLoadModule('/src/game/config.ts');
   const source = JSON.parse(readFileSync(new URL('../src/data/customer_vectors.json', import.meta.url), 'utf8'));
   assert.ok(ALL_CLIENTS.length > 0);
   assert.ok(ALL_CLIENTS.length <= source.companies.length);
@@ -29,6 +30,11 @@ try {
     assert.equal(client.consultantsCurrentlyHere, original.ConsultantsCurrentlyHere);
     assert.equal(client.customerSince, original.customerSince);
     assert.equal(client.headquarters, original.headquarters);
+    assert.ok(['Financial services', 'Energy & utilities', 'Technology', 'Telecommunications', 'Healthcare & life sciences', 'Retail & consumer', 'Manufacturing', 'Transport & logistics', 'Public sector', 'Professional services', 'Construction & real estate', 'Media & entertainment', 'Agriculture & food', 'Other'].includes(client.similarityIndustry), client.name);
+    assert.ok(['Publicly listed', 'Privately held', 'State-owned enterprise', 'Government agency', 'Nonprofit / NGO'].includes(client.ownership), client.name);
+    assert.ok(Array.isArray(client.customerOrientation) && client.customerOrientation.length > 0, client.name);
+    assert.ok(client.customerOrientation.every(orientation => ['B2B', 'B2C / consumer-facing', 'Public / citizen-facing'].includes(orientation)), client.name);
+    assert.ok(['Heavily regulated / critical infrastructure', 'Standard commercial / lightly regulated'].includes(client.regulatoryCharacter), client.name);
     assert.equal(client.latitude === null, client.longitude === null);
     if (client.latitude !== null) {
       assert.ok(Number.isFinite(client.latitude) && Math.abs(client.latitude) <= 90);
@@ -42,6 +48,8 @@ try {
     const result = compareGuess(client, client);
     assert.equal(result.isWinner, true);
     assert.equal(result.sopraStaff.status, 'green');
+    assert.equal(result.similarity.status, 'green');
+    assert.equal(result.similarity.score, SIMILARITY_MAX_SCORE);
   }
   const base = ALL_CLIENTS[0];
   const since = year => ({ ...base, clientSince: year });
@@ -75,6 +83,20 @@ try {
   assert.equal(compareSopraStaff(staff(0), staff(6)).arrow, '\u2191');
   assert.equal(compareSopraStaff(staff(null), staff(0)).status, 'grey');
   assert.equal(compareSopraStaff(staff(0), staff(null)).arrow, undefined);
+  assert.equal(SIMILARITY_MAX_SCORE, 5);
+  const profile = (extra) => ({
+    ...base, similarityIndustry: 'Technology', ownership: 'Privately held',
+    customerOrientation: ['B2B'], regulatoryCharacter: 'Standard commercial / lightly regulated', ...extra,
+  });
+  assert.equal(compareSimilarity(profile(), profile()).score, 5);
+  assert.equal(compareSimilarity(profile(), profile()).status, 'green');
+  assert.equal(compareSimilarity(profile({ similarityIndustry: 'Manufacturing' }), profile()).score, 3);
+  assert.equal(compareSimilarity(profile({ similarityIndustry: 'Manufacturing' }), profile()).status, 'orange');
+  assert.equal(compareSimilarity(profile({ customerOrientation: ['B2B', 'B2C / consumer-facing'] }), profile()).score, 5);
+  assert.equal(compareSimilarity(
+    profile({ similarityIndustry: 'Manufacturing', ownership: 'Publicly listed', customerOrientation: ['Public / citizen-facing'] }),
+    profile(),
+  ).status, 'grey');
   assert.equal(compareCompanySize({ ...base, headcount: 110000 }, base).guessDisplay, '110,000');
   const origin = { ...base, latitude: 0, longitude: 0 };
   const nearby = { ...origin, latitude: 0.001 };

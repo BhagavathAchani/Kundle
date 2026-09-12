@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { hasUnknownData } from './client-completeness.mjs';
+import { classify } from './classify.mjs';
 
 const root = fileURLToPath(new URL('../', import.meta.url));
 const source = JSON.parse(readFileSync(resolve(root, 'src/data/customer_vectors.json'), 'utf8'));
@@ -56,6 +57,7 @@ const clients = source.companies.map(company => {
   if (company.ConsultantsCurrentlyHere !== null && (!Number.isInteger(company.ConsultantsCurrentlyHere) || company.ConsultantsCurrentlyHere < 0)) throw new Error(`Invalid staffing: ${company.name}`);
   const clientSince = company.customerSince ? Number(company.customerSince.slice(0, 4)) : null;
   if (clientSince !== null && !Number.isInteger(clientSince)) throw new Error(`Invalid year: ${company.name}`);
+  const classification = classify(company);
   return {
     id: company.name,
     name: company.name,
@@ -79,6 +81,10 @@ const clients = source.companies.map(company => {
     tags: company.tags,
     operatingFootprint: footprint,
     consultantsCurrentlyHere: company.ConsultantsCurrentlyHere,
+    similarityIndustry: classification.similarityIndustry,
+    ownership: classification.ownership,
+    customerOrientation: classification.customerOrientation,
+    regulatoryCharacter: classification.regulatoryCharacter,
   };
 }).filter(client => !hasUnknownData(client));
 

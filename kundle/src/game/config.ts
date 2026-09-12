@@ -51,17 +51,15 @@ export const FOOTPRINT_ORDER = [
 /** Company similarity scoring weights and colour thresholds. */
 export const SIMILARITY_CONFIG = {
   industryPoints: 2,
-  sectorPoints: 1,
-  tagsPoints: 1,
-  countryPoints: 1,
-  footprintPoints: 1,
-  greenMinScore: 5,
-  orangeMinScore: 3,
+  ownershipPoints: 1,
+  orientationPoints: 1,
+  regulatoryPoints: 1,
+  greenMinScore: 4,
+  orangeMinScore: 2,
 };
 
 export const SIMILARITY_MAX_SCORE =
   SIMILARITY_CONFIG.industryPoints +
-  SIMILARITY_CONFIG.sectorPoints +
-  SIMILARITY_CONFIG.tagsPoints +
-  SIMILARITY_CONFIG.countryPoints +
-  SIMILARITY_CONFIG.footprintPoints;
+  SIMILARITY_CONFIG.ownershipPoints +
+  SIMILARITY_CONFIG.orientationPoints +
+  SIMILARITY_CONFIG.regulatoryPoints;
